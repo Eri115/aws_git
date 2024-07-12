@@ -51,11 +51,11 @@
 # ------------------------------------
  server "54.196.214.112",
    user: "app",
-   roles: %w{web app},
+   roles: %w{web app db},
    ssh_options: {
-     user: "app", # overrides user setting above
-    #  keys: %w(~/Downloads/aws_server.pem),
-     forward_agent: false,
+   user: "app", # overrides user setting above
+    #keys: %w(~/Downloads/aws_server.pem),
+    forward_agent: false,
     #  auth_methods: %w(publickey password)
     # password: "please use keys"
    }
