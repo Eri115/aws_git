@@ -6,6 +6,7 @@ set :repo_url, "https://github.com/Eri115/aws_git.git"
 set :bundle_without, %w{test}.join(':')
 
 append :linked_files, 'config/secrets.yml'
+set :linked_files, %w{config/secrets.yml .env}
 
 
 
