@@ -57,5 +57,5 @@
     #  keys: %w(~/Downloads/aws_server.pem),
      forward_agent: false,
     #  auth_methods: %w(publickey password)
-     # password: "please use keys"
+    # password: "please use keys"
    }
